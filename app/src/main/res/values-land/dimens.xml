@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="_20dp" >130dp</dimen>
+    <dimen name="_24dp" >130dp</dimen>
+    <dimen name="_30dp" >15dp</dimen>
+    <dimen name="button_width">270dp</dimen>
+    <dimen name="button_hight">50dp</dimen>
+    <dimen name="button_margTop">10dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_margTop">10dp</dimen>
+    <dimen name="signup_margleft">10dp</dimen>
+
+
+
+</resources>

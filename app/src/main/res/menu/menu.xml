@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/favourit" android:title="عناويني" android:icon="@drawable/ic_format_list_bulleted_black_24dp"></item>
+    <item android:id="@+id/lasorder" android:title="طلباتي"  android:icon="@drawable/ic_assignment_black_24dp"></item>
+    <item android:id="@+id/setting" android:title="الاعدادات" android:icon="@drawable/ic_settings_black_24dp"></item>
+    <item android:id="@+id/logout" android:title="تسجيل الخروج" android:icon="@drawable/ic_call_missed_outgoing_black_24dp"></item>
+</menu>

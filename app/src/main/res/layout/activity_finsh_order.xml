@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinshOrder"
+    android:background="#ECECF1"
+    android:orientation="vertical">
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#000000">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+               android:layout_alignParentEnd="true"
+                android:layout_margin="4dp"
+                android:id="@+id/close"
+                android:onClick="close"
+                android:src="@drawable/ic_close_black_24dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="التوصيل"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/delever"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الدفع"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:id="@+id/payment"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ملخص"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:id="@+id/review"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </Toolbar>
+    <FrameLayout
+        android:id="@+id/containerFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_20dp" >20dp</dimen>
+    <dimen name="_24dp" >20dp</dimen>
+    <dimen name="_30dp" >30dp</dimen>
+    <dimen name="button_width">270dp</dimen>
+    <dimen name="button_hight">50dp</dimen>
+    <dimen name="button_margTop">40dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_margTop">20dp</dimen>
+    <dimen name="signup_margleft">10dp</dimen>
+    <dimen name="textsize">55sp</dimen>
+    <dimen name="signuplogo">50sp</dimen>
+
+</resources>

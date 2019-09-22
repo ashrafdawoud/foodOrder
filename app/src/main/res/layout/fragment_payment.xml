@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".finish_order_fragments.payment">
+
+    <TextView
+        android:text="اختيار طرق الدفع"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_margin="7dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiogroup">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الدفع عن طريق credit card"
+                android:textSize="20dp"
+                android:layout_gravity="start"
+                android:id="@+id/cridetCheck"/>
+
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="الدفع عند التوصيل "
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/deleverCheck"/>
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تكلفة التوصيل هي 5 ج.م "
+                android:layout_margin="7dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/bottomborder"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="السعر"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_alignParentStart="true"
+                android:text="250ج.م"
+                android:textColor="#FF5722"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:text="مصاريف الشحن"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:text="50ج.م"
+                android:textColor="#FF5722"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="الاجمالي"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="400ج.م"
+                android:textColor="#FF5722"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الذهاب الي الملخص"
+        android:background="#FF5722"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:id="@+id/gotoreview"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>

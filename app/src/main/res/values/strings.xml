@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FoodOrder</string>
+    <string name="signin">LogIn</string>
+    <string name="sinup">Sign Up</string>
+    <string name="email"><font>Email</font></string>
+    <string name="password">Password</string>
+    <string name="forgetpassword">Forget your password?</string>
+    <string name="areyounewuser">New user?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="end">end</string>
+    <string name="emailhint"><font size="40">Email</font></string>
+
+
+</resources>

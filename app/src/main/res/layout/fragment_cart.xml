@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cartFragment"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/carttrcycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm"
+        android:layout_alignParentTop="true"
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="5dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prices"
+            android:text="150"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFCD4312"
+            android:gravity="center_horizontal"
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:textSize="20dp"
+                android:textColor="#0F0C0C"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:layout_alignParentTop="true"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="confirm"
+            android:textColor="#fff"
+            android:id="@+id/bt"
+            android:textSize="20dp"
+            android:background="#FFCD4312"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentEnd="true"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

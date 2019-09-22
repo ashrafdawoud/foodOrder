@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingFragment"
+    android:background="@drawable/backgrond"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="معلومات الحساب"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+
+
+            >
+        <EditText
+            android:id="@+id/firstnameSetting"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2.5dp"
+            android:hint="First name"
+
+
+            />
+            <EditText
+                android:id="@+id/lastnameSetting"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2.5dp"
+                android:hint="First name"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/emailsetting"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="Email"
+
+            />
+        <EditText
+            android:id="@+id/phonesetting"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="phone"
+
+            />
+        <EditText
+            android:id="@+id/Newpassword"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="New password"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="save"
+                android:id="@+id/save"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:background="#FF5722"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
